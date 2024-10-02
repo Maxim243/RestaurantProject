@@ -1,1 +1,1 @@
-# RestaurantProject
+# Restaurant Project
