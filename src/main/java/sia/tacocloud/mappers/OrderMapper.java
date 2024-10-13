@@ -8,10 +8,8 @@ import sia.tacocloud.entity.Order;
 
 @Mapper(componentModel = "spring", uses = TacoMapper.class)
 public interface OrderMapper {
-//    @Mapping(target = "orderedTacos", source = "orderedTacos")
     OrderTacoResponseDTO toDTO(Order order);
 
-//    @Mapping(target = "orderedTacos", source = "orderedTacos")
     Order toEntity(OrderDTO orderDTO);
 }
 

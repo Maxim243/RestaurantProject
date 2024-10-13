@@ -25,9 +25,7 @@ public class OrderController {
         return ResponseEntity.ok(orderService.createOrder(orderDTO));
     }
 
-//    @GetMapping("/current")
-//    public String orderForm(Model model) {
-//        model.addAttribute("order", new Order());
-//        return "orderForm";
+//    @GetMapping("/customer/{id}")
+//    public String orderForm(Long customer) {
 //    }
 }

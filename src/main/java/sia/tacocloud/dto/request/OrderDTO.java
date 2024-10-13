@@ -50,75 +50,75 @@ public class OrderDTO {
     @NotNull
     private List<TacoDTO> orderedTacos;
 
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public String getStreet() {
-//        return street;
-//    }
-//
-//    public void setStreet(String street) {
-//        this.street = street;
-//    }
-//
-//    public String getCity() {
-//        return city;
-//    }
-//
-//    public void setCity(String city) {
-//        this.city = city;
-//    }
-//
-//    public String getState() {
-//        return state;
-//    }
-//
-//    public void setState(String state) {
-//        this.state = state;
-//    }
-//
-//    public String getZip() {
-//        return zip;
-//    }
-//
-//    public void setZip(String zip) {
-//        this.zip = zip;
-//    }
-//
-//    public String getCcExpiration() {
-//        return ccExpiration;
-//    }
-//
-//    public void setCcExpiration(String ccExpiration) {
-//        this.ccExpiration = ccExpiration;
-//    }
-//
-//    public String getCcNumber() {
-//        return ccNumber;
-//    }
-//
-//    public void setCcNumber(String ccNumber) {
-//        this.ccNumber = ccNumber;
-//    }
-//
-//    public Date getCreatedAt() {
-//        return createdAt;
-//    }
-//
-//    public void setCreatedAt(Date createdAt) {
-//        this.createdAt = createdAt;
-//    }
-//
-//    public List<TacoDTO> getOrderedTacos() {
-//        return orderedTacos;
-//    }
-//
-//    public void setOrderedTacos(List<TacoDTO> orderedTacos) {
-//        this.orderedTacos = orderedTacos;
-//    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZip() {
+        return zip;
+    }
+
+    public void setZip(String zip) {
+        this.zip = zip;
+    }
+
+    public String getCcExpiration() {
+        return ccExpiration;
+    }
+
+    public void setCcExpiration(String ccExpiration) {
+        this.ccExpiration = ccExpiration;
+    }
+
+    public String getCcNumber() {
+        return ccNumber;
+    }
+
+    public void setCcNumber(String ccNumber) {
+        this.ccNumber = ccNumber;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public List<TacoDTO> getOrderedTacos() {
+        return orderedTacos;
+    }
+
+    public void setOrderedTacos(List<TacoDTO> orderedTacos) {
+        this.orderedTacos = orderedTacos;
+    }
 }

@@ -13,5 +13,12 @@ import lombok.NoArgsConstructor;
 public class IngredientDTO {
     @JsonProperty("name")
     private String name;
-//    private Type type;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

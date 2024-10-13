@@ -25,35 +25,35 @@ public class OrderTacoResponseDTO {
     @JsonProperty("taco")
     private List<TacoDTO> orderedTacos;
 
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public String getStreet() {
-//        return street;
-//    }
-//
-//    public void setStreet(String street) {
-//        this.street = street;
-//    }
-//
-//    public String getCity() {
-//        return city;
-//    }
-//
-//    public void setCity(String city) {
-//        this.city = city;
-//    }
-//
-//    public List<TacoDTO> getOrderedTacos() {
-//        return orderedTacos;
-//    }
-//
-//    public void setOrderedTacos(List<TacoDTO> orderedTacos) {
-//        this.orderedTacos = orderedTacos;
-//    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public List<TacoDTO> getOrderedTacos() {
+        return orderedTacos;
+    }
+
+    public void setOrderedTacos(List<TacoDTO> orderedTacos) {
+        this.orderedTacos = orderedTacos;
+    }
 }

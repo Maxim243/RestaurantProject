@@ -11,12 +11,4 @@ public class IngredientService {
     @Autowired
     private IngredientRepository ingredientRepository;
 
-//    public IngredientDTO getIngredientById(Long id) {
-//        return ingredientRepository.findById(id).map(
-//                        ingredient -> IngredientDTO
-//                                .builder()
-//                                .name(ingredient.getName())
-//                                .build())
-//                .orElseThrow(() -> new NullPointerException(String.format("Ingredient not found with id: %d", id)));
-//    }
 }
